@@ -1,6 +1,7 @@
 const { expect } = require("chai");
 const { ethers } = require("hardhat");
 
+// crowdfunding test suite
 describe("Crowdfunding contract", function () {
   let Crowdfunding;
   let crowdfunding;
