@@ -36,4 +36,8 @@ jobs:
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v2
       with:
-        file: ./coverage/lcov.info
+        file: ./coverage.xml
+        fail_ci_if_error: true
+        flags: unittests
+        token: c7c46815-df5e-4bcc-bd0f-8b40c03aff8e
+        
